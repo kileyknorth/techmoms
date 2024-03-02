@@ -1,0 +1,131 @@
+body {
+    padding: 0 40px;
+    background-color: #CCD5AE;
+}
+
+.alex-brush-regular {
+    font-family: "Alex Brush", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+header {}
+
+h1 img {
+    max-width: 200px;
+    height: auto;
+    display: inline-block;
+    margin-right: 40px;
+    border-radius: 25px;
+}
+
+h1 {
+    font-family: "Alex Brush";
+    font-size: 200px;
+    margin-top: 0;
+    border-bottom: 3px solid #D4A373;
+    margin-bottom: 10px;
+    text-align: center;
+    justify-content: center;
+    padding: 30px 0;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    color: #E9EDC9;
+
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+#currentbooks a {
+
+    background-color: #FEFAE0;
+    display: block;
+    color: #D4A373;
+    text-decoration: none;
+    font-weight: bold;
+    width: 300px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: "Charm";
+    
+}
+
+.charm-regular {
+    font-family: "Charm", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .charm-bold {
+    font-family: "Charm Bold", cursive;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+
+#currentbooks a:hover {
+    background-color: #FAEDCD;
+    color: #D4A373
+}
+
+#currentbooks {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+#currentbooks img {
+    width: 300px;
+}
+
+.bookCard {
+    width: 300px;
+}
+
+.bookQuote {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 0 0 10px;
+
+}
+
+#Coming {
+    display: flex;
+    justify-content: flex-end;
+
+    margin-top: 40px;
+    padding-top: 40px;
+    border-top: 3px solid #D4A373;
+}
+
+#Coming img {
+    width: 150px;
+}
+
+.comingBookCard {
+    width: 150px;
+}
+
+.comingBookQuote {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 0 0 10px;
+
+}
+
+#Coming h2 {
+    text-align: center;
+    color: #E9EDC9;
+}
